@@ -1,0 +1,84 @@
+*{
+    font-family: lato;
+}
+
+.container{
+    font-size: 70px;
+}
+.container {
+display: grid;
+width: 100%;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 100px 100px 100px 100px 100px;
+    }
+
+    .menu {
+        grid-column-start: 1;
+        grid-column-end:5;
+        grid-gap: 5px;
+        }
+    .sidebar {
+        background: lightyellow;
+        grid-row-start: 2;
+        grid-row-end: 5;
+        grid-column-end: 1/2;
+        }
+    .sidebar > img{
+        align-content: center;
+    }
+    .sidebar{
+        content: url("images/diki.JPG");
+        width : 100%;
+        height : auto;
+        border-radius: 100%;
+    }
+    .konten {
+        background: transparent;
+        grid-column: 2/5;
+        }
+    .footer {
+        background: transparent;
+        grid-column: 1/5;
+        grid-row : 5/6;
+        }
+
+.footer {
+    font-weight: bold;
+    font-family: lato;
+    text-align: center;
+}
+
+.menu{
+    content: url(images/cl.png);
+    width : 17%;
+}
+a{
+    text-decoration: none;
+}
+
+@media screen and (min-width:360px) and (max-width:710px){
+    .container{
+        background-color:white;
+        font-size: 10px;
+    }
+    .sidebar{
+        content: url(images/diki.JPG);
+        justify-content: right;
+        width :50%;
+        border-radius: 100%;
+    }
+
+    .container {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 30px 30px 25px 25px 30px;
+        grid-gap: 4px;
+            }
+    .footer{
+        position: relative;
+        top : 20px;
+        text-align: left;
+        font-size: 10px;
+    }
+}
