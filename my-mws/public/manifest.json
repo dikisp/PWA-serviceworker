@@ -4,19 +4,24 @@
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
   "display": "standalone",
-  "orientation": "portrait",
+  "orientation": "landscape",
   "Scope": "/",
   "start_url": "index.html",
   "icons": [
     {
+        "src": "images/144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+    {
       "src": "images/192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x84"
     },
     {
       "src": "images/512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x224"
     }
   ],
   "splash_pages": null
