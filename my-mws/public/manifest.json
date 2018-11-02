@@ -1,6 +1,6 @@
 {
     "short_name": "Funder",
-    "name": "Funder MWS",
+    "name": "Funder",
     "icons": [
         {
             "src": "images/128.png",
@@ -28,7 +28,7 @@
           "sizes": "512x512"
         }
     ],
-    "start_url": "/index.html",
+    "start_url": "index.html",
     "background_color": "#3367D6",
     "display": "standalone",
     "scope": "/",
