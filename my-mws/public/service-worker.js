@@ -10,7 +10,8 @@ var urlsToCache = [
   '/project1/add2numbers.js',
   '/project2/assets/css/main.css',
   '/project2/index.html',
-  '/project2/main.js'
+  '/project2/main.js',
+  '/manifest.json'
 ];
 
 self.addEventListener('install', function(event) {
