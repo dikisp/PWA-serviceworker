@@ -57,9 +57,13 @@ a{
 }
 
 @media screen and (min-width:360px) and (max-width:710px){
+    *{
+        font-family: lato;
+        font-size: 30px;
+
+    }
     .container{
         background-color:white;
-        font-size: 10px;
     }
     .sidebar{
         content: url(images/diki.JPG);

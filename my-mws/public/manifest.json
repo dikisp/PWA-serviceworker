@@ -1,0 +1,23 @@
+{
+  "name": "PWA - Google MWS",
+  "short_name": "PWA",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "orientation": "portrait",
+  "Scope": "/",
+  "start_url": "index.html",
+  "icons": [
+    {
+      "src": "images/192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "splash_pages": null
+}
